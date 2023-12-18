@@ -1,0 +1,64 @@
+/*flex-wrap: can also be nowwrap-reverse; */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightskyblue;
+    height: 400px;
+} 
+h1 {
+    text-align: center;
+    color: #320f8b;
+}
+
+.flex-container > div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+#div1 {
+    background-color: darkcyan;
+    color: white;
+   
+}
+#div2 {
+    background-color: blueviolet;
+    color: white;
+}
+#div4 {
+    background-color:dodgerblue;
+    color: white;
+}
+
+#div3 {
+    background-color:#320f8b;
+    color: white;
+}
+#div5 {
+    background-color:indigo;
+    color:azure;
+
+}
+#div6 {
+    background-color:burlywood;
+    color:black;
+}
+#div7 {
+    background-color:lightgoldenrodyellow;
+    color:black;
+}
+#div8 {
+    background-color:darkkhaki;
+    color:black;
+}
+#div9 {
+    background-color:sandybrown;
+    color:black;
+}
+#div10 {
+    background-color:yellowgreen;
+    color: black;
+}
